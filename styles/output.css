@@ -671,6 +671,30 @@ video {
   top: 1rem;
 }
 
+.top-40 {
+  top: 10rem;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-20 {
+  top: -5rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -723,8 +747,41 @@ video {
   clear: none;
 }
 
+.m-40 {
+  margin: 10rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.-mt-40 {
+  margin-top: -10rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .box-border {
@@ -832,6 +889,30 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -1840,6 +1921,16 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-pink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 176 196 / var(--tw-bg-opacity));
+}
+
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 37 52 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1866,6 +1957,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -1968,6 +2063,14 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -2600,6 +2703,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-9 {
+    height: 2.25rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-32 {
+    height: 8rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2609,9 +2724,19 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  @media (min-width: 1024px) {
+    .md\:lg\:h-40 {
+      height: 10rem;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-40 {
+    height: 10rem;
+  }
+
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
