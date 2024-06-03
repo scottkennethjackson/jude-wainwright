@@ -1854,8 +1854,8 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\/images\/midnight-strike\.png\'\)\] {
-  background-image: url('/images/midnight-strike.png');
+.bg-midnight-strike {
+  background-image: url('../images/midnight-strike.png');
 }
 
 .decoration-slice {

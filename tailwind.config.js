@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'midnight-strike': "url('/images/midnight-strike.png')"
+        'midnight-strike': "url('../images/midnight-strike.png')"
       },
 
       fontFamily: {
