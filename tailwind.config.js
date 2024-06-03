@@ -3,7 +3,6 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-
       backgroundImage: {
         'midnight-strike': "url('/images/midnight-strike.png')"
       },
